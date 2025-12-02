@@ -11,12 +11,6 @@
 * **Background Service:** Runs efficiently in the background using Android's native `NotificationListenerService`.
 * **Privacy First:** No internet permission required (except for Gradle build). All data stays on your device.
 
-## 📱 Screenshots
-
-| Home Screen | Notification Access | Restored Notifications |
-|:-----------:|:-------------------:|:----------------------:|
-| *(Add screenshot here)* | *(Add screenshot here)* | *(Add screenshot here)* |
-
 ## 🛠️ Technical Details
 
 * **Language:** Kotlin
