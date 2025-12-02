@@ -33,9 +33,13 @@ class FocusTileService : TileService() {
         if (NotificationBlockerService.isBlockingActive) {
             tile.state = Tile.STATE_ACTIVE
             tile.label = "Focus ON"
+            // Use the slashed bell (ic_tile_focus)
+            tile.icon = android.graphics.drawable.Icon.createWithResource(this, R.drawable.ic_tile_focus)
         } else {
             tile.state = Tile.STATE_INACTIVE
             tile.label = "Focus OFF"
+            // Use the normal bell (ic_tile_normal)
+            tile.icon = android.graphics.drawable.Icon.createWithResource(this, R.drawable.ic_tile_normal)
         }
 
         tile.updateTile()

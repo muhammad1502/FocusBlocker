@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- ADD THIS PERMISSION -->
+    <!-- Required to restore notifications on Android 13+ -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
@@ -35,9 +35,11 @@
             </intent-filter>
         </service>
 
+        <!-- Quick Settings Tile -->
+        <!-- Starts with the 'Blocked' icon (slashed bell) by default -->
         <service
             android:name=".FocusTileService"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/ic_tile_focus"
             android:label="@string/tile_label"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
