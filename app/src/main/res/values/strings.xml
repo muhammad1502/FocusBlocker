@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FocusBlocker</string>
+    <string name="title_main">Focus Blocker</string>
+    <string name="btn_grant_permission">1. Grant Permission</string>
+    <string name="hint_package_name">Enter package name (e.g., com.whatsapp)</string>
+    <string name="btn_add_app">Add</string>
+    <string name="status_not_blocking">Status: NOT BLOCKING</string>
+    <string name="status_blocking">Status: BLOCKING ACTIVE</string>
+    <string name="switch_block_notifications">Block Notifications</string>
+    <string name="toast_added_to_list">Added %1$s to block list</string>
+    <string name="toast_removed_from_list">Removed %1$s from block list</string>
+    <string name="toast_grant_permission">Please grant permission first!</string>
+    <string name="label_blocked_list">Blocked Apps (Tap to remove):</string>
+
+    <!-- Quick Settings Tile -->
+    <string name="tile_label">Focus Mode</string>
+</resources>
